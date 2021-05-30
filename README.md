@@ -89,7 +89,3 @@ Random Forest is used as algorithm.
 The maximum depth of each tree is 5, the maximum number of trees is 10 and the splitting criterion is Gini Impurity.
 - Results:
 Plotting and exporting different metrics
-
-
-
-###### Feel free to contact me if there are any questions, suggestions or ideas for improvement (I would be especially happy about the latter 😁 )
