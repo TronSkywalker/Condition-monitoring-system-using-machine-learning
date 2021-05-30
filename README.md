@@ -1,7 +1,7 @@
 # Condition monitoring system using machine learning
 
 ### Abstract
-In this project, a data set from ZeMA GmbH is examined, which has been published freely accessible on the Internet under the title "Condition monitoring of hydraulic systems Data Set".
+In this project, a data set from ZeMA GmbH is examined. It has been published freely accessible on the Internet under the title "Condition monitoring of hydraulic systems Data Set".
 This project served me to familiarize with Python and its various modules. Since my previous Data Science projects were programmed with Matlab, I use Spyder as IDE.
 
 ### Data
