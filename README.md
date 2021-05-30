@@ -33,9 +33,9 @@ tm - Technisches Messen (2017), 84(3), 198—206, doi: 10.1515/teme-2016-0072.
 Creator: ZeMA gGmbH, Eschberger Weg 46, 66121 Saarbrücken
 Contact: t.schneider '@' zema.de, s.klein '@' zema.de, m.bastuck '@' lmt.uni-saarland.de, info '@' lmt.uni-saarland.de
 
-### Folder Architecture
+### Instruction and scripts
 
-The folder structure is as follows:
+Just download scripts and xlsx file as zip file, unzip it and run the code.
 
 Scripts:
 - main.py: main script
