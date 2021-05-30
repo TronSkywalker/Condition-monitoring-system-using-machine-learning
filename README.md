@@ -7,7 +7,6 @@ This project served me to familiarize with Python and its various modules. Since
 ### Data
 The data set examined in this project belongs to ZeMA GmbH. which has been published freely accessible on the Internet under the title "Condition monitoring of hydraulic systems Data Set".
 This dataset was presented by Helwig, Pignanelli and Schütze in [1] and all credit goes to them.
-I only forked the dataset on this platform to show my results and deserve no credit for it.
 	
 ##### Context
 The data set addresses the condition assessment of a hydraulic test rig based on multi sensor data. Five fault types are superimposed with several severity grades impeding selective quantification.
@@ -38,20 +37,11 @@ Contact: t.schneider '@' zema.de, s.klein '@' zema.de, m.bastuck '@' lmt.uni-saa
 
 The folder structure is as follows:
 
-Folder:
-- 01_information: All information related to the dataset. This information is only used to get to know the dataset better and is not used for in the code.
-- 02_data: Examined records that are imported and analysed.
-- 03_export: Destination folder where plots and results are exported. For this purpose, a folder is created during the calculation. The folder name corresponds to the running datetime. This folder in turn contains a sub-folder with data plots and a sub-folder with test results.
-  - YYYY-MM-DD
-    - 01_data_plotting
-    - 02_results
-      - ...
-            
 Scripts:
 - main.py: main script
 - myfunctions.py: used functions
-            
-xlsx.-file:
+
+.xlsx-file:
 - attribute_information.xlsx: To divide the data sets into input and state data, an .xlsx file has been created.
 The 1st worksheet 'Sensor Data' contains a list of all sensors including units and sampling rate.
 The other worksheets contain the most important information of the different state data and are used for Data Labeling.
@@ -62,6 +52,12 @@ For further information: see code section Data Labeling.
 ### Code sections
 - Import modules
 - Variables
+- Folder Architecture and Data Akquise: Creation of folders and data download from URL (if not already available)
+  - 01_information: All information related to the dataset. This information is only used to get to know the dataset better and will not be used further.
+  - 02_data: Examined records that are imported and analysed.
+  - 03_export: Destination folder where plots and results are exported. For this purpose, a folder is created during the calculation. The folder name corresponds to the
+    running datetime. This folder in turn contains a sub-folder with data plots and a sub-folder with test results.
+  	- YYYY-MM-DD (01_data_plotting, 02_results)
 - Export settings: Creating Folder for export files
 - Export variable configuration: Export of variable settings as xlsx.file
 - Data import:
