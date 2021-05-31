@@ -70,7 +70,7 @@ The data were measured by sensors with different frequencies (1 - 100 Hz). The s
 To obtain an nxm matrix and to take into account the sampling time of each data point, each data set is transposed and transformed according to the frequency.
 Furthermore, the data sets are smoothed using moving average. Depending on the sensor, different window sizes are used.
   - Raw Data --> raw_data
-  - Smoothed Data --> preproc_data
+  - Smoothed Data --> preproc_data 
 - Data Labeling:
 In a first calculation, each data point defined as critical was assigned the label "bad". Accordingly, state data defined as ALARP or non-critical were assigned the label "good".
 If data points that were defined as ALARP should also be defined as critical: Simply add 'ALARP' to the list in the variable vector (key: 'critical').
