@@ -7,7 +7,7 @@ Since the condition data are available as categorical features and the goal is t
 
 ### Data
 
-The data set examined in this project belongs to ZeMA GmbH. which has been published freely accessible under the title "Condition monitoring of hydraulic systems Data Set".
+The data set examined in this project belongs to ZeMA GmbH, which has been published freely accessible under the title "Condition monitoring of hydraulic systems Data Set".
 This dataset was presented by Helwig, Pignanelli and Schütze in [1] and all credit goes to them.
 	
 ##### Context
