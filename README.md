@@ -5,7 +5,7 @@ In this project, a data set from ZeMA GmbH is examined. It has been published fr
 This project served me to familiarize with Python and its various modules. Since my previous Data Science projects were programmed with Matlab, I use Spyder as IDE.
 
 ### Data
-The data set examined in this project belongs to ZeMA GmbH. which has been published freely accessible on the Internet under the title "Condition monitoring of hydraulic systems Data Set".
+The data set examined in this project belongs to ZeMA GmbH. which has been published freely accessible under the title "Condition monitoring of hydraulic systems Data Set".
 This dataset was presented by Helwig, Pignanelli and Schütze in [1] and all credit goes to them.
 	
 ##### Context
