@@ -79,7 +79,7 @@ For NaN data located between 2 data points, a value is assigned using linear int
 This procedure isn't possible for NaN data located before the first data point. Due to the small number of lines, these are removed (approx. 0.15% of 13 million)
 - Train-Test-Split:
 In order to obtain a statistically valid result, the data is divided into training and test data using cross-validation.
-To keep the ratio of critical and non-critical data constant in each iteration, stratified k-fold cross-validation is used as a method.
+To keep the ratio of critical and non-critical data constant in each iteration, stratified k-fold cross-validation is used as method.
 - Training & Test:
 Random Forest is used as algorithm.
 The maximum depth of each tree is 5, the maximum number of trees is 10 and the splitting criterion is Gini Impurity.
