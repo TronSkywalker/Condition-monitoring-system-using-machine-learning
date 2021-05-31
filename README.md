@@ -36,8 +36,7 @@ Creator: ZeMA gGmbH, Eschberger Weg 46, 66121 Saarbrücken
 Contact: t.schneider '@' zema.de, s.klein '@' zema.de, m.bastuck '@' lmt.uni-saarland.de, info '@' lmt.uni-saarland.de
 
 ### Instruction and scripts
-
-Just download scripts and xlsx file as zip file, unzip it and run the code.
+Just download scripts and xlsx file as zip file, unzip it and run main.py.
 
 Scripts:
 - main.py: main script
