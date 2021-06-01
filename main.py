@@ -60,7 +60,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import roc_curve, auc, confusion_matrix, ConfusionMatrixDisplay
 
 # My functions
-import myfunctions 
+import helperFunctions 
 
 ############################################################################
 
@@ -276,7 +276,7 @@ filenames = sorted(
     filenames,
     key = str.lower
     )
-filenames = myfunctions.listallwith(
+filenames = helperFunctions.listallwith(
     filenames,
     [".txt", ".csv"]
     )
@@ -508,7 +508,7 @@ for i in range(len(sensor_list)):
             np.linspace(0, max(x), 6).round()
             )
         ax.set_yticks(
-            np.linspace(0, myfunctions.roundup(max(y[idx])), 6).round()
+            np.linspace(0, helperFunctions.roundup(max(y[idx])), 6).round()
             )
         ax.tick_params(axis='x', labelsize = 8)
         ax.tick_params(axis='y', labelsize = 8)
@@ -560,7 +560,7 @@ print("TRAIN-TEST-SPLIT")
 
 X = preproc_data[feature_names]
 
-y_name_list = myfunctions.find_true_keys(variables["targets"])
+y_name_list = helperFunctions.find_true_keys(variables["targets"])
 y_name = y_name_list[0].replace(' ','_') + '_label'
 y = preproc_data[y_name]
 
@@ -658,7 +658,7 @@ for (train, test), i in zip(kf.split(X, y), range(5)):
 print("RESULTS")
 
 # ROC curve
-fig,ax = myfunctions.plot_roc_curve(fprs, tprs)
+fig,ax = helperFunctions.plot_roc_curve(fprs, tprs)
 directory = dirpath + "/02_results/"
 filename = "ROC" + "_" + y.name
 file_format = ".jpg"
